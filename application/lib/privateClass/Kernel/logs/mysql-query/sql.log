@@ -1,0 +1,126 @@
+[2012-11-06 16:52:41]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:52:41]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 0 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:54:25]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:54:25]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 0 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:54:51]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:54:51]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 0 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:55:10]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:55:10]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 0 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:55:14]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:55:14]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:57:08]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:57:08]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:57:12]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 2 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:57:12]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 0 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:58:26]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 2 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:58:26]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 0 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:58:41]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 16:58:41]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:08:41]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:08:41]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:08:55]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 2 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:08:55]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 0 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:11:25]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:11:25]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:13:57]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 4 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:13:57]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 0 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:14:03]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:14:03]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:15:18]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:15:18]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:31:43]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:31:43]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:31:50]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 0 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:31:50]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 0 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:33:11]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:33:11]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:33:59]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:33:59]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:35:16]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-06 17:35:16]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 5 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-07 10:56:31]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-07 10:56:31]: [33060]SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM `cu_after_sales_manage`.`users` 
+				WHERE `UID` = 5 AND `enabled` = 1 
+				LIMIT 1;
