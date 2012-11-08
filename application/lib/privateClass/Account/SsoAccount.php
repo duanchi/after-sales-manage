@@ -85,26 +85,6 @@ class SsoAccount {
 		return \privateClass\Kernel\MYSQL::query($sql,_MYSQL_INSERT);
 	}
 	
-	public function get_user_by_pid($pid) {
-		$uid = 0;
-		$result = FALSE;
-		$sql = 'SELECT `master_leading`, `slave_leading` FROM '.DB__AFTER_SALES_MANAGE__PRODUCTS.' 
-				WHERE `PID` = '.$pid.' AND `enabled` = 1 
-				LIMIT 1;';
-		$retval = \privateClass\Kernel\MYSQL::query($sql,_MYSQL_QUERY);
-		if (isset($retval[0])) {
-			if (empty($retval[0]['master_leading']) && !empty($retval[0]['slave_leading'])) {
-				$uid = explode(',', $retval[0]['slave_leading'])[0];
-			} elseif (!empty($retval[0]['master_leading'])) $uid = $retval[0]['master_leading'];
-		}
-		$sql = 'SELECT `UID`, `username`, `ROLE_ID`, `update_time` FROM '.DB__AFTER_SALES_MANAGE__USERS.' 
-				WHERE `UID` = '.$uid.' AND `enabled` = 1 
-				LIMIT 1;';
-		$retval = \privateClass\Kernel\MYSQL::query($sql,_MYSQL_QUERY);
-		if (isset($retval[0])) $result = $retval[0];
-		return $result;
-	}
-	
 	function __destruct() {
 	}
 }

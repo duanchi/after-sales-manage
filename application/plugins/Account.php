@@ -15,13 +15,14 @@ class AccountPlugin extends Yaf\Plugin_Abstract {
 	
 	public function preDispatch(Yaf\Request_Abstract $request, Yaf\Response_Abstract $response) {
 		\privateClass\Account\SsoAccounter::init();
+		//if ($request->controller != 'Account') \privateClass\Account\SsoAccounter::getInstance()->check_login(TRUE);
+		
 	}
 	
 	public function postDispatch(Yaf\Request_Abstract $request, Yaf\Response_Abstract $response) {
 	}
 	
 	public function dispatchLoopShutdown(Yaf\Request_Abstract $request, Yaf\Response_Abstract $response) {
-		\privateClass\Kernel\MYSQL::close();
 	}
 	
 	public function preResponse(Yaf\Request_Abstract $request, Yaf\Response_Abstract $response) {

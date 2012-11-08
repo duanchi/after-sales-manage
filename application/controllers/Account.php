@@ -14,12 +14,14 @@ class AccountController extends Yaf\Controller_Abstract {
 	public function ssoLoginAction() {
 		$referer = explode('&redirect=',isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '/');
 		
-		if (\privateClass\Account\SsoAccounter::getInstance()->check_login() == TRUE) header('Location: '.(isset($referer[1]) ? $referer[1] : '/'));
+		if (\privateClass\Account\SsoAccounter::getInstance()->check_login()) header('Location: '.(isset($referer[1]) ? $referer[1] : '/'));
 		else \privateClass\Account\SsoAccounter::getInstance()->redirect_sso_login();
         return FALSE;
 	}
 	
 	public function ssoLoginRedirectAction() {
+		var_dump($_SERVER['REDIRECT_STATUS']);
+		var_dump($_COOKIE);
 		$referer = explode('&redirect=',isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '/');
 		if (($_SERVER['REDIRECT_STATUS'] == '200' || $_SERVER['REDIRECT_STATUS'] == 200) && isset($_COOKIE['username'])) {
 			//判断登录结果如果成功则写cookie和session
@@ -33,7 +35,7 @@ class AccountController extends Yaf\Controller_Abstract {
 			setcookie('access_secret_key','',$time);
 			unset($_SESSION['user']);
 			$referer[1] = isset($referer[1]) && $referer[1] != '' ? '?redirect='.$referer[1] : '';
-			header('Location: /account/ssoLogin'.$referer[1]);
+			//header('Location: /account/ssoLogin'.$referer[1]);
 		}
 		return FALSE;
 	}

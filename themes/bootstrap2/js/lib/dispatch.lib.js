@@ -10,7 +10,11 @@ function select_product (obj) {
 
 function init_preview() {
 	//显示处理人
-	if ($('#PID').val() == '') alert('请返回选择产品类别');
+	var check = true;
+	if ($('#PID').val() == '') {
+		alert('请返回选择产品类别');
+		check = false;
+	}
 	else get_product_leading($('#PID').val());
 	
 	//客户名称
@@ -18,7 +22,9 @@ function init_preview() {
 	$('#preview_contacts').text($('#contacts').val());
 	$('#preview_PID').text($('#PID-selector-name').text());
 	$('#preview_description').text($('#description').val());
-	$('#preview_comment').text($('#comment').val());
+	$('#preview_comments').text($('#comments').val());
+	
+	if (check == true) $('#add-dispatch-modal').modal('show');
 }
 
 function reset_preview() {
@@ -28,6 +34,7 @@ function reset_preview() {
 	$('#preview_PID').text('');
 	$('#preview_description').text('');
 	$('#preview_comment').text('');
+	$('#add-dispatch-modal .modal-header h3').remove('span');
 }
 
 function get_product_leading(pid) {
@@ -53,17 +60,23 @@ function dispatch_submit() {
 		contacts:$('#contacts').val(),
 		PID:$('#PID').val(),
 		description:$('#description').val(),
-		comment:$('#comment').val(),
+		comments:$('#comments').val(),
 		enable_msg:$('#enable_msg').val()
 	};
 	$.ajax({
-		url:'/support/dispatch/support?type=ajax',
+		url:'/support/api/dispatch?action=add',
 		type:'POST',
-		//dataType:'json',
+		dataType:'json',
 		data:o,
 		success: function(response){
-			alert(response);
-			$('#add-dispatch-modal .modal-header h3').append('<span class="label label-success">已成功发送至史景烨</span>');
+			$('#add-dispatch-modal .modal-header h3').remove('span');
+			if (response.status == 'true' || response.status == true) {
+				$('#add-dispatch-modal .modal-header h3').append('<span class="label label-success">已成功发送工单.</span>');
+				$('#add-dispatch-modal-submit').remove();
+			} else {
+				$('#add-dispatch-modal .modal-header h3').append('<span class="label label-important">发送工单失败,请检查工单后重新发送.</span>');
+				$('#add-dispatch-modal-submit').removeClass('btn-primary').addClass('btn-danger');
+			}
 		}
 	});
 	

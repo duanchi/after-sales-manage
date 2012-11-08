@@ -1,6 +1,6 @@
 <?php
 
-namespace privateClass\dispatch;
+namespace privateClass\Dispatch;
 
 class Dispatch {
 	const _SUPPORT = 0;
@@ -10,20 +10,23 @@ class Dispatch {
 	function __destruct() {
 	}
 	
-	public function add($type = _CONSULT) {
+	public function add($type = self::_CONSULT) {
 		$sql = '';
+		$result = FALSE;
 		switch($type) {
-			case _SUPPORT :
+			case self::_SUPPORT :
 				
 				break;
 				
-			case _SUPPORT :
+			case self::_SUPPORT :
 			default :
 				$sql = 'INSERT INTO '.DB__AFTER_SALES_MANAGE__DISPATCHES.' 
 						(`PID`, `job_number`, `customer`, `contacts`, `description`, `comments`, `occurrence_time`) VALUES 
-						([value-1],[value-2],[value-3],[value-4],[value-5],[value-6],[value-7],[value-8],[value-9],[value-10],[value-11],[value-12],[value-13]);';
+						('.$_POST['PID'].',\''.$_POST['job_number'].'\',\''.$_POST['customer'].'\',\''.$_POST['contacts'].'\',\''.$_POST['description'].'\',\''.$_POST['comments'].'\',\''.$_POST['occurrence_time'].'\');';
+				$result = \privateClass\Kernel\MYSQL::query($sql,_MYSQL_INSERT);
 				break;
 		}
+		return ['status'=>($result ? TRUE : FALSE)];
 	}
 }
 

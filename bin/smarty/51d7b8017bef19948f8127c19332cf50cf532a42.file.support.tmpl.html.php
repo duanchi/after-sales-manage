@@ -1,4 +1,25 @@
-<!doctype html>
+<?php /* Smarty version Smarty-3.1.11, created on 2012-11-08 10:51:40
+         compiled from "/Users/duanChi/Projects/after-sales-manage/application/modules/Support/views/dispatch/support.tmpl.html" */ ?>
+<?php /*%%SmartyHeaderCode:1779076286509b0bc0bea088-42597642%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '51d7b8017bef19948f8127c19332cf50cf532a42' => 
+    array (
+      0 => '/Users/duanChi/Projects/after-sales-manage/application/modules/Support/views/dispatch/support.tmpl.html',
+      1 => 1352343092,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1779076286509b0bc0bea088-42597642',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.11',
+  'unifunc' => 'content_509b0bc0c1b927_79129430',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_509b0bc0c1b927_79129430')) {function content_509b0bc0c1b927_79129430($_smarty_tpl) {?><!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -10,7 +31,8 @@
 
 <body>
 
-{include file="$ROOT_TEMPLATE_PATH/include/header.tmpl.html"}
+<?php echo $_smarty_tpl->getSubTemplate (((string)$_smarty_tpl->tpl_vars['ROOT_TEMPLATE_PATH']->value)."/include/header.tmpl.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 <div class="container" style="height:100%;">
 	<div class="span12 wrapper-box">
     	<div class="box-header">
@@ -26,7 +48,8 @@
             </div>
         </div>
         <div class="box-body row-fluid">
-{include './sidebar.tmpl.html'}
+<?php echo $_smarty_tpl->getSubTemplate ('./sidebar.tmpl.html', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
             <div class="box-content">
             	<section>
                     <form id="add-dispatch" class="form-horizontal dispatch" method="post">
@@ -176,4 +199,4 @@
 <script type="text/javascript" src="/themes/bootstrap2/js/lib/common.lib.js"></script>
 <script type="text/javascript" src="/themes/bootstrap2/js/controller/dispatch.controller.js"></script>
 <script type="text/javascript" src="/themes/bootstrap2/js/lib/dispatch.lib.js"></script>
-</html>
+</html><?php }} ?>

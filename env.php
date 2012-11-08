@@ -1,4 +1,2 @@
 <?php
-var_dump($_SERVER);
-?>
-<a href="">asdad</a>
+echo hash('sha256', '1352361850' . '23393667300c863138b382ce629324c1d23f3dbd0d06');
