@@ -28,11 +28,11 @@ class Bootstrap extends Yaf\Bootstrap_Abstract{
 	public function _initPlugin(Yaf\Dispatcher $dispatcher) {
 		//注册DumpTools插件
 		$dispatcher->registerPlugin(new DumpPlugin());
-		//smarty模板改为在plugin中初始化
-		$dispatcher->registerPlugin(new SmartyPlugin());
 		$dispatcher->registerPlugin(new SecurityPlugin());
 		$dispatcher->registerPlugin(new MysqlPlugin());
 		$dispatcher->registerPlugin(new AccountPlugin());
+		//smarty模板改为在plugin中初始化
+		$dispatcher->registerPlugin(new SmartyPlugin());
 	}
 	
 	/*

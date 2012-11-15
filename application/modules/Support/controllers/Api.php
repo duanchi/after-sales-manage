@@ -14,6 +14,11 @@ class ApiController extends Yaf\Controller_Abstract {
 	public function IndexAction() {
 		return FALSE;
 	}
+	
+	/**
+	 * 获取当前站点用户信息api
+	 * @return json_encoded
+	 */
 	public function UserAction() {
 		$_GET['pid'] = isset($_GET['pid']) ? $_GET['pid'] : 0;
 		
@@ -22,6 +27,11 @@ class ApiController extends Yaf\Controller_Abstract {
 		return FALSE;
 	}
 	
+	/**
+	 * 工单处理api
+	 * add | delete
+	 * @return boolean
+	 */
 	public function DispatchAction() {
 		$result = FALSE;
 		isset($_GET['action']) ? TRUE : $_GET['action'] = '';
@@ -42,13 +52,17 @@ class ApiController extends Yaf\Controller_Abstract {
 					isset($_POST['description']) && !empty($_POST['description']) ? TRUE : $retval = FALSE;
 					isset($_POST['comment']) && !empty($_POST['comment']) ? TRUE : $_POST['comment'] = '';
 					isset($_POST['enable_msg']) && !empty($_POST['enable_msg']) && $_POST['enable_msg'] == 'true' ? $_POST['enable_msg'] = TRUE : $_POST['enable_msg'] = FALSE;
-					$dispatch = new \privateClass\Dispatch\Dispatch();
-					$result = $dispatch->add();
+					$result = \privateClass\Dispatch\Dispatcher::getInstance()->add();
 					break;
 			}
 			
 		}
 		echo json_encode($result);
+		return FALSE;
+	}
+	
+	public function JobnumberAction() {
+		echo json_encode(['jobnumber'=>\privateClass\Dispatch\Dispatcher::getInstance()->make_jobnumber()]);
 		return FALSE;
 	}
 }

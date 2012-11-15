@@ -7,6 +7,7 @@ class AccountPlugin extends Yaf\Plugin_Abstract {
 	}
 	
 	public function routerShutdown(Yaf\Request_Abstract $request, Yaf\Response_Abstract $response) {
+		
 	}
 	
 	public function dispatchLoopStartup(Yaf\Request_Abstract $request, Yaf\Response_Abstract $response) {
@@ -14,8 +15,7 @@ class AccountPlugin extends Yaf\Plugin_Abstract {
 	}
 	
 	public function preDispatch(Yaf\Request_Abstract $request, Yaf\Response_Abstract $response) {
-		\privateClass\Account\SsoAccounter::init();
-		//if ($request->controller != 'Account') \privateClass\Account\SsoAccounter::getInstance()->check_login(TRUE);
+		
 		
 	}
 	

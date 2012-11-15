@@ -232,3 +232,1907 @@
 [2012-11-08 10:54:26]: [33061]INSERT INTO `cu_after_sales_manage`.`dispatches` 
 						(`PID`, `job_number`, `customer`, `contacts`, `description`, `comments`, `occurrence_time`) VALUES 
 						(1,'ZXPT-201211050010','asdf','asdf','asdf','fffffsdfsdfsdf','2012-11-08 10:54:26');
+[2012-11-12 10:51:55]: [33060]SELECT `UID`, `username`, `access_token`
+					FROMDB__SUPPORT_FOR_OPEN_PLATFORM__USERS
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-12 15:01:13]: [33060]SELECT `UID`, `username`, `access_token`
+					FROMDB__SUPPORT_FOR_OPEN_PLATFORM__USERS
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-12 15:02:23]: [33060]SELECT `UID`, `username`, `access_token`
+					FROMDB__SUPPORT_FOR_OPEN_PLATFORM__USERS
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-12 17:12:38]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-12 17:17:55]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-12 17:17:57]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-12 17:18:29]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-12 17:43:59]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 10:08:09]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 10:49:17]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 10:59:20]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-13 10:59:20]: [33061]INSERT INTO DB__SUPPORT_FOR_OPEN_PLATFORM__USERS 
+				(`UID`, `username`, `token`) VALUES 
+				(5,'duanchi','ct71imfda88u4rbtm804c9p861');
+[2012-11-13 11:01:31]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 11:01:34]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-13 11:01:34]: [33061]INSERT INTO `cu_after_sales_manage`.`users` 
+				(`UID`, `username`, `token`) VALUES 
+				(5,'duanchi','ct71imfda88u4rbtm804c9p861');
+[2012-11-13 11:02:38]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 11:02:40]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-13 11:02:41]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 11:04:24]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 11:05:41]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 11:05:42]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 11:05:54]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 11:05:54]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:19:11]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-13 14:19:11]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:24:51]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:28:43]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:28:43]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:28:48]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+					SET `access_token` = '1d34b9d9bac5df1768a697696a0fe97a9dba9179' 
+					WHERE `UID` = 5
+[2012-11-13 14:28:48]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:29:06]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:29:06]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:29:54]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:29:56]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:29:56]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:32:32]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:32:32]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:33:35]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:33:35]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:33:52]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:33:52]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:34:11]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:34:11]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:41:16]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:41:17]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:41:17]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:41:17]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:41:17]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:41:17]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:41:17]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:41:17]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:41:17]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:41:18]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:41:18]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:41:18]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:41:18]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:43:16]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:43:16]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:43:16]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:43:16]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:43:22]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-13 14:43:22]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-13 14:43:22]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = '4rdq5ivlg2mauaec9c4sh1vu04' 
+						WHERE `UID` = 5;
+[2012-11-13 14:43:22]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-13 14:43:22]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:12:25]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 0
+					LIMIT 1;
+[2012-11-14 17:12:31]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:12:31]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-14 17:12:31]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = 'eq8beg5ijnknbp424s1olgd3d4' 
+						WHERE `UID` = 5;
+[2012-11-14 17:12:31]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-14 17:12:31]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:12:41]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:12:41]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-14 17:12:41]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = 'eq8beg5ijnknbp424s1olgd3d4' 
+						WHERE `UID` = 5;
+[2012-11-14 17:12:41]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-14 17:12:41]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:13:05]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:13:05]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-14 17:13:05]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = 'eq8beg5ijnknbp424s1olgd3d4' 
+						WHERE `UID` = 5;
+[2012-11-14 17:13:05]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-14 17:13:05]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:13:30]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:13:30]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-14 17:13:30]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = 'eq8beg5ijnknbp424s1olgd3d4' 
+						WHERE `UID` = 5;
+[2012-11-14 17:13:30]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-14 17:13:30]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:15:47]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:15:47]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-14 17:15:47]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = 'eq8beg5ijnknbp424s1olgd3d4' 
+						WHERE `UID` = 5;
+[2012-11-14 17:20:32]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:20:33]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:20:33]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-14 17:20:37]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:20:37]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-14 17:20:37]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = 'eq8beg5ijnknbp424s1olgd3d4' 
+						WHERE `UID` = 5;
+[2012-11-14 17:52:35]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:55:26]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-14 17:55:28]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-14 17:55:28]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = 'eq8beg5ijnknbp424s1olgd3d4' 
+						WHERE `UID` = 5;
+[2012-11-14 17:55:40]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-14 17:55:42]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-14 17:55:42]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = 'eq8beg5ijnknbp424s1olgd3d4' 
+						WHERE `UID` = 5;
+[2012-11-14 17:55:42]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-14 17:55:42]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:56:53]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-14 17:56:53]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = 'eq8beg5ijnknbp424s1olgd3d4' 
+						WHERE `UID` = 5;
+[2012-11-14 17:56:53]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-14 17:56:53]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:59:20]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-14 17:59:20]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = 'eq8beg5ijnknbp424s1olgd3d4' 
+						WHERE `UID` = 5;
+[2012-11-14 17:59:21]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-14 17:59:21]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-14 17:59:45]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-14 17:59:45]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = 'eq8beg5ijnknbp424s1olgd3d4' 
+						WHERE `UID` = 5;
+[2012-11-14 17:59:45]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-14 17:59:45]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:22:03]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-15 09:22:03]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = 'ffq1g1j8619q1tp19qqaaulbb2' 
+						WHERE `UID` = 5;
+[2012-11-15 09:22:04]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-15 09:22:04]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:22:34]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-15 09:22:34]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:24:34]: [33060]SELECT * FROM `cu_after_sales_manage`.`users` 
+					WHERE `UID` = 5 
+					LIMIT 1
+[2012-11-15 09:24:34]: [33062]UPDATE `cu_after_sales_manage`.`users` 
+						SET `token` = 'ffq1g1j8619q1tp19qqaaulbb2' 
+						WHERE `UID` = 5;
+[2012-11-15 09:24:34]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-15 09:24:34]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:24:39]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-15 09:24:39]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:24:41]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-15 09:24:41]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:54:43]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-15 09:54:43]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:54:47]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-15 09:54:47]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:55:13]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-15 09:55:13]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:55:14]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-15 09:55:14]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:55:45]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-15 09:55:45]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:55:45]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5
+[2012-11-15 09:55:45]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:59:00]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 09:59:00]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:59:01]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 09:59:01]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:59:07]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 09:59:07]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 09:59:07]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 09:59:07]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:01:51]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:01:51]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:01:56]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:01:56]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:02:53]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:02:53]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:02:53]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:02:53]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:03:21]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:03:21]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:03:22]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:03:22]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:07:38]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:07:38]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:10:24]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:10:24]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:10:26]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:10:26]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:10:31]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:10:31]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:10:31]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:10:31]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:17:14]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:17:14]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:17:15]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:17:15]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:17:17]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:17:17]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:17:18]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:17:18]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:19:40]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:19:40]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:19:41]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:19:41]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:21:04]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:21:04]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:21:04]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:21:04]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:21:07]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:21:07]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:21:07]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:21:07]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:22:16]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:22:16]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:22:16]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:22:16]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:22:24]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:22:24]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:22:24]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:22:24]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:22:57]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:22:57]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:22:57]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:22:57]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:25:29]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:25:29]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:25:30]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:25:30]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:25:36]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:25:36]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:25:36]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:25:36]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:32:32]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:32:32]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:32:32]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:32:32]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:35:02]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:35:02]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:35:03]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:35:03]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:35:31]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:35:31]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:35:31]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:35:31]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:35:39]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:35:39]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:35:39]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:35:39]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:35:48]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:35:48]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:35:48]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:35:48]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:40:43]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:40:43]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:40:45]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:40:45]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:48:12]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:48:12]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:48:14]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:48:14]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:49:02]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:49:02]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:49:03]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:49:03]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:49:22]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:49:22]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:49:22]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:49:22]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:50:33]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:50:33]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:50:33]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:50:33]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:50:37]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:50:37]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:50:37]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:50:37]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:53:47]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:53:48]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 10:53:49]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 10:53:49]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:09:01]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:09:01]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:09:01]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:09:04]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:09:04]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:09:08]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:09:08]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:09:08]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:09:27]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:09:27]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:09:27]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:09:28]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:09:28]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:09:54]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:09:54]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:09:54]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:09:54]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:09:54]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:11:37]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:11:37]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:11:37]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:11:37]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:11:37]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:12:18]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:12:18]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:12:18]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:12:18]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:12:18]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:13:01]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:13:01]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:13:01]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:17:14]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:17:14]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:17:15]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:17:15]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:17:15]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:17:15]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:17:53]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:17:53]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:17:53]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:17:53]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:17:54]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:17:54]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:18:26]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:18:26]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:18:26]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:18:26]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:18:26]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:18:26]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:18:45]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:18:45]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:18:45]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:18:45]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:18:45]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:18:45]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:19:29]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:19:29]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:19:29]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:19:29]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:19:29]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:19:29]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:20:21]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:20:21]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:20:21]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:20:21]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:20:21]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:20:21]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:21:33]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:21:33]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:21:33]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:21:33]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:21:33]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:21:33]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:21:51]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:21:51]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:21:51]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:21:51]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:21:51]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:21:51]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:22:07]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:22:07]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:22:07]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:22:07]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:23:33]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:23:33]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:23:34]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:23:34]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:23:45]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:23:45]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:23:47]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:23:47]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:23:47]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:23:47]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:24:06]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:24:06]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:24:06]: [33061]INSERT INTO `cu_after_sales_manage`.`dispatches` 
+						(`PID`, `job_number`, `customer`, `contacts`, `description`, `comments`, `occurrence_time`) VALUES 
+						(1,'ZXPT-201211050010','asdfasdf','asdfasdf','adfasdf','asdfasdfasdf','2012-11-15 14:24:06');
+[2012-11-15 14:24:12]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:24:12]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:24:12]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:24:12]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:25:46]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:25:46]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:25:47]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:25:47]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:25:52]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:25:52]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:25:53]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:25:53]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:25:53]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 14:25:53]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:25:56]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:25:56]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:25:56]: [33061]INSERT INTO `cu_after_sales_manage`.`dispatches` 
+						(`PID`, `job_number`, `customer`, `contacts`, `description`, `comments`, `occurrence_time`) VALUES 
+						(1,'ZXPT-201211050010','adfadf','asdfafdasfd','asfasfasdfas','fasdfasdfsdf','2012-11-15 14:25:56');
+[2012-11-15 14:25:56]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:25:56]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:25:56]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:25:56]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:40:08]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:40:08]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:40:09]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:40:09]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:40:50]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:40:50]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 14:40:51]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 14:40:51]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:26:03]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:26:03]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:26:04]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 0 LIMIT 1;
+[2012-11-15 15:26:04]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:26:04]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:28:06]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:28:06]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:28:06]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 0 LIMIT 1;
+[2012-11-15 15:28:06]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:28:06]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:28:19]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:28:19]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:28:19]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 15:28:19]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:28:19]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:30:05]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:30:05]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:30:05]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 15:30:05]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:30:05]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:31:15]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:31:15]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:31:15]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 15:31:15]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:31:15]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:32:59]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:32:59]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:32:59]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 15:32:59]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:32:59]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:34:50]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:34:50]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:34:51]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 15:34:51]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 1
+						WHERE `INIT_ID` = 2;
+[2012-11-15 15:34:51]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:34:51]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:34:51]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:34:51]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:34:51]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 15:34:51]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 2
+						WHERE `INIT_ID` = 2;
+[2012-11-15 15:34:51]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:34:51]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:34:53]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:34:53]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 15:34:53]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 15:34:53]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 3
+						WHERE `INIT_ID` = 2;
+[2012-11-15 15:34:53]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 15:34:53]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 16:57:29]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 16:57:29]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 16:57:29]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 16:57:29]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 4
+						WHERE `INIT_ID` = 2;
+[2012-11-15 16:57:30]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 16:57:30]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 16:59:09]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 16:59:09]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 16:59:09]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 16:59:09]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 5
+						WHERE `INIT_ID` = 2;
+[2012-11-15 16:59:10]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 16:59:10]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 16:59:11]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 16:59:11]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 16:59:11]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 16:59:11]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 6
+						WHERE `INIT_ID` = 2;
+[2012-11-15 16:59:11]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 16:59:11]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 16:59:12]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 16:59:12]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 16:59:12]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 16:59:12]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 7
+						WHERE `INIT_ID` = 2;
+[2012-11-15 16:59:12]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 16:59:12]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 16:59:14]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 16:59:14]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 16:59:14]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 16:59:14]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 8
+						WHERE `INIT_ID` = 2;
+[2012-11-15 16:59:14]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 16:59:14]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:10:24]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:10:24]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:10:25]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:10:25]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:10:30]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:10:30]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:10:31]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:10:31]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:10:31]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:10:31]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:10:39]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:10:39]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:10:39]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:10:39]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:11:28]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:11:28]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:11:28]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:11:28]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:11:36]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:11:36]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:11:40]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:11:40]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:11:40]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:11:40]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:11:40]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:11:40]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:11:40]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 0 LIMIT 1;
+[2012-11-15 17:11:45]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:11:45]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:11:45]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:11:45]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:11:45]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:11:45]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:11:45]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 0 LIMIT 1;
+[2012-11-15 17:12:40]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:12:40]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:12:40]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:12:40]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:12:46]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:12:46]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:12:53]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:12:53]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:12:53]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:12:53]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:12:53]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:12:53]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:12:53]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 17:12:53]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 9
+						WHERE `INIT_ID` = 2;
+[2012-11-15 17:16:19]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:16:19]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:16:19]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:16:19]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:16:42]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:16:42]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:16:42]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:16:42]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:17:15]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:17:15]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:17:15]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:17:15]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:17:19]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:17:19]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:17:19]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:17:19]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:18:32]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:18:32]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:18:33]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:18:33]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:18:39]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:18:39]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:18:40]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:18:40]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:18:40]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:18:40]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:18:40]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:18:40]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:18:40]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 17:18:40]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 10
+						WHERE `INIT_ID` = 2;
+[2012-11-15 17:19:24]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:19:24]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:19:24]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:19:24]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:19:27]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:19:27]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:19:30]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:19:30]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:19:30]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:19:30]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:19:30]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:19:30]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:19:30]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 17:19:30]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 11
+						WHERE `INIT_ID` = 2;
+[2012-11-15 17:19:39]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:19:39]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:19:39]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:19:39]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:20:01]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:20:01]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:20:01]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:20:01]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:20:07]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:20:07]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:20:09]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:20:09]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:20:09]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 17:20:09]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 12
+						WHERE `INIT_ID` = 2;
+[2012-11-15 17:20:09]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:20:09]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:20:09]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:20:09]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:20:30]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:20:30]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:20:30]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:20:31]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:20:35]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:20:35]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:20:36]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:20:36]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:20:36]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:20:36]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:20:36]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:20:36]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:20:36]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 17:20:36]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 13
+						WHERE `INIT_ID` = 2;
+[2012-11-15 17:21:34]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:21:34]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:21:35]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:21:35]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:21:39]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:21:39]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:21:40]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:21:40]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:21:40]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:21:40]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:21:40]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:21:40]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:21:40]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 17:21:40]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 14
+						WHERE `INIT_ID` = 2;
+[2012-11-15 17:21:44]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:21:44]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:21:44]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:21:44]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:21:47]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:21:47]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:21:47]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:21:47]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:21:54]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:21:54]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:21:54]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:21:54]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:23:33]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:23:33]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:23:33]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:23:33]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:23:37]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:23:37]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:23:38]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:23:38]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:23:38]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:23:38]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:23:38]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:23:38]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:23:38]: [33060]SELECT * FROM `cu_after_sales_manage`.`dispatches_job_number_init` WHERE `PID` = 1 LIMIT 1;
+[2012-11-15 17:23:38]: [33062]UPDATE `cu_after_sales_manage`.`dispatches_job_number_init`
+						SET `temp_number` = 15
+						WHERE `INIT_ID` = 2;
+[2012-11-15 17:23:42]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:23:42]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:23:42]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:23:42]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:24:46]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:24:46]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:24:46]: [33060]SELECT `master_leading`, `slave_leading` FROM `cu_after_sales_manage`.`products` 
+				WHERE `PID` = 1 AND `enabled` = 1 
+				LIMIT 1;
+[2012-11-15 17:24:46]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:24:49]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:24:49]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:24:49]: [33061]INSERT INTO `cu_after_sales_manage`.`dispatches` 
+						(`PID`, `job_number`, `customer`, `contacts`, `description`, `comments`, `occurrence_time`) VALUES 
+						(1,'ZXPT-201211150014','asdfa','dfasdfasfdas','fdasfdasf','asfdasdfasfd','2012-11-15 17:24:49');
+[2012-11-15 17:24:49]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:24:49]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;
+[2012-11-15 17:24:49]: [33060]SELECT `token` FROM `cu_after_sales_manage`.`users`
+				WHERE `UID` = 5;
+[2012-11-15 17:24:49]: [33060]SELECT `UID`, `username`, `access_token`
+					FROM`cu_after_sales_manage`.`users`
+					WHERE `UID` = 5
+					LIMIT 1;

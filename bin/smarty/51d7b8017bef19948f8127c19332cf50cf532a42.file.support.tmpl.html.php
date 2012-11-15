@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2012-11-08 10:51:40
+<?php /* Smarty version Smarty-3.1.11, created on 2012-11-15 17:10:25
          compiled from "/Users/duanChi/Projects/after-sales-manage/application/modules/Support/views/dispatch/support.tmpl.html" */ ?>
 <?php /*%%SmartyHeaderCode:1779076286509b0bc0bea088-42597642%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '51d7b8017bef19948f8127c19332cf50cf532a42' => 
     array (
       0 => '/Users/duanChi/Projects/after-sales-manage/application/modules/Support/views/dispatch/support.tmpl.html',
-      1 => 1352343092,
+      1 => 1352970048,
       2 => 'file',
     ),
   ),
@@ -145,7 +145,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 <h3>受理信息</h3>
                 <div class="control-group">
                     <label class="control-label" for="preview_job_number">工单编号&nbsp;</label>
-                    <div class="controls"><label id="preview_job_number" name="preview_job_number" class="span6">ZXPT-201211050010</label></div>
+                    <div class="controls"><label id="preview_job_number" name="preview_job_number" class="span6"></label></div>
                 </div>
                 <div class="control-group">
                     <label class="control-label" for="preview_occurrence_time">工单提交时间&nbsp;</label>

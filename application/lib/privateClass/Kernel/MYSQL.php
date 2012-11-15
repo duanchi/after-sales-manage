@@ -113,7 +113,8 @@ class MYSQL
 				break;
 			case _MYSQL_DELETE:
 			case _MYSQL_UPDATE:
-				return $retval;
+				//return !empty($retval) ? TRUE : FALSE;
+				return TRUE;
 				break;
 			case _MYSQL_INSERT:
 				$id = mysql_insert_id();
@@ -122,7 +123,11 @@ class MYSQL
 			default:
 				return NULL;
 		}
-		if (self::error_number()) return self::error_number();
+		if (self::error_number()) {
+			file_put_contents(__DIR__.DIRECTORY_SEPARATOR.'logs'.DIRECTORY_SEPARATOR.'mysql-query'.DIRECTORY_SEPARATOR.'sql.log', date('[Y-m-d H:i:s][error]: ').'['.$sql_type.']'.$sql.'
+',FILE_APPEND);
+			return self::error_number();
+		}
 	}
 	/**
 	 * @name error_number

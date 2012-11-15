@@ -7,6 +7,7 @@ class MysqlPlugin extends Yaf\Plugin_Abstract {
 	}
 	
 	public function routerShutdown(Yaf\Request_Abstract $request, Yaf\Response_Abstract $response) {
+		\privateClass\Kernel\MYSQL::connect(Yaf\Registry::get('config')->get('mysql'));
 	}
 	
 	public function dispatchLoopStartup(Yaf\Request_Abstract $request, Yaf\Response_Abstract $response) {
@@ -14,7 +15,7 @@ class MysqlPlugin extends Yaf\Plugin_Abstract {
 	}
 	
 	public function preDispatch(Yaf\Request_Abstract $request, Yaf\Response_Abstract $response) {
-		\privateClass\Kernel\MYSQL::connect(Yaf\Registry::get('config')->get('mysql'));
+		
 	}
 	
 	public function postDispatch(Yaf\Request_Abstract $request, Yaf\Response_Abstract $response) {

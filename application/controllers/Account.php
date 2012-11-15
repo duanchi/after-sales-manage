@@ -12,18 +12,24 @@ class AccountController extends Yaf\Controller_Abstract {
      * 对于如下的例子, 当访问http://yourhost/dashboard/index/index/index/name/duanChi <http://weibo.com/shijingye> 的时候, 你就会发现不同
      */
 	public function ssoLoginAction() {
-		$referer = explode('&redirect=',isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '/');
+		$referer = isset($_SERVER['HTTP_REFERER']) && $_SERVER['HTTP_REFERER'] !='' ? $_SERVER['HTTP_REFERER'] : '/support/dispatch/support'; 
+		$referer = isset($_GET['redirect']) && !empty($_GET['redirect']) ? urldecode($_GET['redirect']) : $referer;
 		
-		if (\privateClass\Account\SsoAccounter::getInstance()->check_login()) header('Location: '.(isset($referer[1]) ? $referer[1] : '/'));
+		if (\privateClass\Account\SsoAccounter::getInstance()->check_login()) header('Location: '.$referer);
 		else \privateClass\Account\SsoAccounter::getInstance()->redirect_sso_login();
         return FALSE;
 	}
 	
 	public function ssoLoginRedirectAction() {
-		var_dump($_SERVER['REDIRECT_STATUS']);
-		var_dump($_COOKIE);
-		$referer = explode('&redirect=',isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '/');
-		if (($_SERVER['REDIRECT_STATUS'] == '200' || $_SERVER['REDIRECT_STATUS'] == 200) && isset($_COOKIE['username'])) {
+		$redirect = isset($_GET['redirect']) && !empty($_GET['redirect']) ? urldecode($_GET['redirect']) : '/support/dispatch/support';
+		isset($_GET['service_token']) ? TRUE : $_GET['service_token'] = '';
+		$user = \privateClass\Account\SsoAccounter::getInstance()->get_sso_user($_GET['service_token']);
+		if (\privateClass\Account\SsoAccounter::getInstance()->login($user)) header('Location:'.$redirect);
+		else header('Location:/account/ssoLogin');
+		
+		
+		
+		/* if (($_SERVER['REDIRECT_STATUS'] == '200' || $_SERVER['REDIRECT_STATUS'] == 200) && isset($_COOKIE['username'])) {
 			//判断登录结果如果成功则写cookie和session
 			$result = \privateClass\Account\SsoAccounter::getInstance()->login($_COOKIE['UID'],$_COOKIE['username'],$_COOKIE['token']);
 			header('Location: '.(isset($referer[1]) && $referer[1] != '' ? $referer[1] : '/'));
@@ -36,7 +42,7 @@ class AccountController extends Yaf\Controller_Abstract {
 			unset($_SESSION['user']);
 			$referer[1] = isset($referer[1]) && $referer[1] != '' ? '?redirect='.$referer[1] : '';
 			//header('Location: /account/ssoLogin'.$referer[1]);
-		}
+		} */
 		return FALSE;
 	}
 	

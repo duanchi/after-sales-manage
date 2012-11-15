@@ -169,11 +169,12 @@ class Adapter implements \Yaf\View_Interface
 	 * @return string The output.
 	 */
 	public function render($name, $value = NULL) {
-		return $this->_smarty->fetch($name);
+		//return $this->_smarty->fetch($name);
+		return $this->_smarty->display($name);
 	}
 
 	public function display($name, $value = NULL) {
-		echo $this->_smarty->fetch($name);
+		return $this->_smarty->display($name);
 	}
 
 }

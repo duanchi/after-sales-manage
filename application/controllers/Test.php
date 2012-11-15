@@ -18,4 +18,12 @@ class TestController extends Yaf\Controller_Abstract {
 		var_dump(get_defined_constants());
 		return FALSE;
 	}
+	
+	public function cookieAction() {
+		//header('Set-cookie:name=duanchi;',FALSE);
+		//header('Set-cookie:pass=i5;',FALSE);
+		setcookie('name','haha');
+		setcookie('passd','lalala');
+		return FALSE;
+	}
 }

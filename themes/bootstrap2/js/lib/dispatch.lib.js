@@ -24,6 +24,8 @@ function init_preview() {
 	$('#preview_description').text($('#description').val());
 	$('#preview_comments').text($('#comments').val());
 	
+	get_jobnumber($('#PID').val());
+	
 	if (check == true) $('#add-dispatch-modal').modal('show');
 }
 
@@ -37,6 +39,25 @@ function reset_preview() {
 	$('#add-dispatch-modal .modal-header h3').remove('span');
 }
 
+
+var jobnumber = '', p_id = 0;
+function get_jobnumber(pid) {
+	if (jobnumber == '' || pid != p_id) {
+		$.ajax({
+			url:'/support/api/jobnumber',
+			dataType:'json',
+			data:{'pid':pid},
+			success: function(response){
+				if (response != false) {
+					jobnumber = response.jobnumber;
+					p_id = pid;
+					$('#preview_job_number').text(response.jobnumber);
+				} else alert('获取工单编号失败!');
+			}
+		});
+	} else $('#preview_job_number').text(jobnumber);
+}
+
 function get_product_leading(pid) {
 	$.ajax({
 		url:'/support/api/user',
@@ -44,7 +65,7 @@ function get_product_leading(pid) {
 		data:{'pid':pid},
 		success: function(response){
 			if (response != false) {
-				$('#preview_process_user').text(response.username);
+				$('#preview_process_user').text(response.profile ? response.profile.screen_name : response.username);
 				//短信提醒
 				$('#enable_msg').attr('checked') == 'checked' ? $('#preview_process_user').append('<span id="ctrl_enable_msg">(已经启用短信提醒)</span>') : false;
 			} else alert('无产品管理人!');
@@ -73,6 +94,7 @@ function dispatch_submit() {
 			if (response.status == 'true' || response.status == true) {
 				$('#add-dispatch-modal .modal-header h3').append('<span class="label label-success">已成功发送工单.</span>');
 				$('#add-dispatch-modal-submit').remove();
+				window.location.href = '/support/dispatch/support';
 			} else {
 				$('#add-dispatch-modal .modal-header h3').append('<span class="label label-important">发送工单失败,请检查工单后重新发送.</span>');
 				$('#add-dispatch-modal-submit').removeClass('btn-primary').addClass('btn-danger');

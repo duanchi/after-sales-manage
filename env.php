@@ -1,2 +1,2 @@
 <?php
-echo hash('sha256', '1352361850' . '23393667300c863138b382ce629324c1d23f3dbd0d06');
+var_dump(parse_url('http://localhost/hello'));
