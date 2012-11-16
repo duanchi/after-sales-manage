@@ -103,3 +103,39 @@ function dispatch_submit() {
 	});
 	
 }
+
+function init_product_list(parent_id) {
+	$.ajax({
+		url:'/support/api/productlist',
+		dataType:'json',
+		data:{'parent_id':parent_id},
+		success: function(response){
+			var list = '';
+			if (response != false) {
+				list = show_product_list(response);
+				$('#PID-selector').append(list);
+			} else alert('获取产品列表失败!');
+		}
+	});
+}
+
+function show_product_list(obj) {
+	var list = '';
+	if (obj.category.length + obj.products.length > 0) {
+		list += '<ul class="dropdown-menu">';
+	}
+	if (obj.category.length > 0) {
+		for (n in obj.category) {
+			list += '<li class="dropdown-submenu"><a href="#" data-value="0">' + obj.category[n].name + '</a>' + show_product_list(obj.category[n]) + '</li>';
+		}
+	}
+	if (obj.products.length > 0) {
+		for (m in obj.products) {
+			list += '<li><a href="#" data-value="' + obj.products[m].PID + '">' + obj.products[m].name + '</a></li>';
+		}
+	}
+	if (obj.category.length + obj.products.length > 0) {
+		list += '</ul>';
+	}
+	return list;
+}

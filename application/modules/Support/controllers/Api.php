@@ -65,4 +65,12 @@ class ApiController extends Yaf\Controller_Abstract {
 		echo json_encode(['jobnumber'=>\privateClass\Dispatch\Dispatcher::getInstance()->make_jobnumber()]);
 		return FALSE;
 	}
+	
+	public function productlistAction() {
+		$_GET['parent_id'] = isset($_GET['parent_id']) ? $_GET['parent_id'] : 0;
+		$product_handler = new \privateClass\Dispatch\Product();
+		$product = $product_handler->get($_GET['parent_id']);
+		echo json_encode($product);
+		return FALSE;
+	}
 }

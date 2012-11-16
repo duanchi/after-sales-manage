@@ -16,9 +16,9 @@ class SmartyPlugin extends Yaf\Plugin_Abstract {
 		\privateClass\Dispatch\Dispatcher::init();
 		if ($request->controller != 'Account') {
 			
-			if (\privateClass\Account\SsoAccounter::getInstance()->check_login()) ;
-			else \privateClass\Account\SsoAccounter::getInstance()->redirect_sso_login();
-			$smarty->assign('_USER',\privateClass\Account\SsoAccounter::getInstance()->get_user());
+			//if (\privateClass\Account\SsoAccounter::getInstance()->check_login()) ;
+			//else \privateClass\Account\SsoAccounter::getInstance()->redirect_sso_login();
+			//$smarty->assign('_USER',\privateClass\Account\SsoAccounter::getInstance()->get_user());
 		}
 		$smarty->assign('_REQUEST',[
 			'module'	=>	$request->module,

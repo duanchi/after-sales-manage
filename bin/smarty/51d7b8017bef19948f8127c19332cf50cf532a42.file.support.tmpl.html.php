@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2012-11-15 17:10:25
+<?php /* Smarty version Smarty-3.1.11, created on 2012-11-16 11:26:07
          compiled from "/Users/duanChi/Projects/after-sales-manage/application/modules/Support/views/dispatch/support.tmpl.html" */ ?>
 <?php /*%%SmartyHeaderCode:1779076286509b0bc0bea088-42597642%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '51d7b8017bef19948f8127c19332cf50cf532a42' => 
     array (
       0 => '/Users/duanChi/Projects/after-sales-manage/application/modules/Support/views/dispatch/support.tmpl.html',
-      1 => 1352970048,
+      1 => 1353036232,
       2 => 'file',
     ),
   ),
@@ -73,35 +73,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                                 <div class="controls">
                                 	<div id="PID-selector" class="btn-group">
                                     	<button id="PID-selector-name" class="btn" onclick="return false;">请选择产品分类</button><button class="btn dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
-                                        <ul class="dropdown-menu">
-                                            <li class="dropdown-submenu">
-                                            	<a href="#" data-value="0">信息化类</a>
-                                                <ul class="dropdown-menu">
-                                                	<li><a href="#" data-value="1">综信平台</a></li>
-                                                    <li><a href="#" data-value="2">信息魅力</a></li>
-                                                    <li><a href="#" data-value="3">移动办公</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="divider"></li>
-                                            <li class="dropdown-submenu">
-                                            	<a href="#" data-value="0">定位类</a>
-                                                <ul class="dropdown-menu">
-                                                	<li><a href="#" data-value="4">人员定位</a></li>
-                                                    <li><a href="#" data-value="5">移动执法</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="divider"></li>
-                                            <li class="dropdown-submenu">
-                                            	<a href="#" data-value="0">监控类</a>
-                                                <ul class="dropdown-menu">
-                                                	<li><a href="#" data-value="6">神眼</a></li>
-                                                    <li><a href="#" data-value="7">宽视界</a></li>
-                                                    <li><a href="#" data-value="8">3G眼</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="divider"></li>
-                                            <li><a href="#" data-value="9">其他产品</a></li>
-                                        </ul>
                                     </div><!-- /btn-group -->
                                 </div>
                             </div>

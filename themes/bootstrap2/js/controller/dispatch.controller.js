@@ -1,6 +1,6 @@
 $(function(){
 	//选择产品列表
-	$('#PID-selector a[data-value]').on('click',function(){
+	$('#PID-selector a[data-value]').live('click',function(){
 		select_product(this);
 	});
 	/* $('#add-dispatch-modal').on('show',function(){
@@ -21,4 +21,5 @@ $(function(){
 		$('#message-test').messagebox();
 		return false;
 	});
+	init_product_list(0);
 });

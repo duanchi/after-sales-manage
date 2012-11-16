@@ -19,4 +19,8 @@ class DispatchController extends Yaf\Controller_Abstract {
 	public function supportAction() {
 		return TRUE;
 	}
+	public function preprocessAction() {
+		$this->getView()->assign('test',['test'=>TRUE]);
+		return TRUE;
+	}
 }

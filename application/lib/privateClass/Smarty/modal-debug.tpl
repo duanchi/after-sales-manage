@@ -1,11 +1,7 @@
 {capture name='_smarty_debug' assign=debug_output}
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-    <title>Smarty Debug Console</title>
 <style type="text/css">
 {literal}
-body, h1, h2, td, th, p {
+#_smarty_console body, #_smarty_console h1, #_smarty_console h2, #_smarty_console td, #_smarty_console th, #_smarty_console p {
     font-family: sans-serif;
     font-weight: normal;
     font-size: 0.9em;
@@ -13,7 +9,7 @@ body, h1, h2, td, th, p {
     padding: 0;
 }
 
-h1 {
+#_smarty_console h1 {
     margin: 0;
     text-align: left;
     padding: 2px;
@@ -23,7 +19,7 @@ h1 {
     font-size: 1.2em;
  }
 
-h2 {
+#_smarty_console h2 {
     background-color: #9B410E;
     color: white;
     text-align: left;
@@ -31,45 +27,47 @@ h2 {
     padding: 2px;
     border-top: 1px solid black;
 }
-
-body {
+#_smarty_console {
+	overflow-y:auto;
+}
+#_smarty_console body {
     background: black; 
 }
 
-p, table, div {
+#_smarty_console p, #_smarty_console table, #_smarty_console div {
     background: #f0ead8;
 } 
 
-p {
+#_smarty_console p {
     margin: 0;
     font-style: italic;
     text-align: center;
 }
 
-table {
+#_smarty_console table {
     width: 100%;
 }
 
-th, td {
+#_smarty_console th, #_smarty_console td {
     font-family: monospace;
     vertical-align: top;
     text-align: left;
     width: 50%;
 }
 
-td {
+#_smarty_console td {
     color: green;
 }
 
-.odd {
+#_smarty_console .odd {
     background-color: #eeeeee;
 }
 
-.even {
+#_smarty_console .even {
     background-color: #fafafa;
 }
 
-.exectime {
+#_smarty_console .exectime {
     font-size: 0.8em;
     font-style: italic;
 }
@@ -103,7 +101,6 @@ td {
 {/if}
 
 <h2>assigned template variables</h2>
-
 <table id="table_assigned_vars">
     {foreach $assigned_vars as $vars}
        <tr class="{if $vars@iteration % 2 eq 0}odd{else}even{/if}">   
@@ -122,12 +119,15 @@ td {
     {/foreach}
 
 </table>
-</body>
-</html>
 {/capture}
 <script type="text/javascript">
 {$id = $template_name|default:''|md5}
-    _smarty_console = window.open("","console{$id}","width=680,height=600,resizable,scrollbars=yes");
-    _smarty_console.document.write("{$debug_output|escape:'javascript' nofilter}");
-    _smarty_console.document.close();
+_smarty_console = document.createElement('div');
+_smarty_console.id = '_smarty_console';
+_smarty_console.setAttribute('style','position:fixed; bottom:0; width:100%; height:300px; background:#000;');
+_smarty_console.innerHTML = '{$debug_output|escape:"javascript" nofilter}';
+document.body.appendChild(_smarty_console);
+    //_smarty_console = window.open("","console{$id}","width=680,height=600,resizable,scrollbars=yes");
+    //_smarty_console.document.write("{$debug_output|escape:'javascript' nofilter}");
+    //_smarty_console.document.close();
 </script>
